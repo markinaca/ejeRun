@@ -7,7 +7,8 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - ls
+      - run: ls
+          no_output_timeout: 360m
       - run: chmod +x runner.sh
       
       - run: ./runner.sh
@@ -15,13 +16,13 @@ jobs:
   build_02:
     docker:
       - image: cimg/python:3.8
-
+         
     working_directory: ~/repo
     steps:
       - checkout
       - run: ls
       - run: chmod +x runner.sh
-      
+          no_output_timeout: 360m
       - run: ./runner.sh
       
   build_03:
@@ -33,7 +34,7 @@ jobs:
       - checkout
       - run: ls
       - run: chmod +x runner.sh
-      
+           no_output_timeout: 360m
       - run: ./runner.sh
       
   build_04:
@@ -45,7 +46,7 @@ jobs:
       - checkout
       - run: ls
       - run: chmod +x runner.sh
-    
+          no_output_timeout: 360m
       - run: ./runner.sh
 
   build_05:
@@ -57,7 +58,7 @@ jobs:
       - checkout
       - run: ls
       - run: chmod +x runner.sh
-      
+          no_output_timeout: 360m
       - run: ./runner.sh
       
   build_06:
@@ -67,10 +68,10 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
-      - run: chmod +x run
-      - run: chmod +x cloudbuild
-      - run: ./run
+      - run: ls
+      - run: chmod +x runner.sh
+          no_output_timeout: 360m
+      - run: ./runner.sh
       
   build_07:
     docker:
@@ -79,10 +80,10 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
-      - run: chmod +x run
-      - run: chmod +x cloudbuild
-      - run: ./run
+      - run: ls
+      - run: chmod +x runner.sh
+         no_output_timeout: 360m
+      - run: ./runner.sh
       
   build_08:
     docker:
@@ -91,10 +92,10 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
-      - run: chmod +x run
-      - run: chmod +x cloudbuild
-      - run: ./run
+      - run: ls
+      - run: chmod +x runner.sh
+          no_output_timeout: 360m
+      - run: ./runner.sh
 
   build_09:
     docker:
@@ -103,10 +104,10 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
-      - run: chmod +x run
-      - run: chmod +x cloudbuild
-      - run: ./run
+      - run: ls
+      - run: chmod +x runner.sh
+         no_output_timeout: 360m
+      - run: ./runner.sh
       
   build_10:
     docker:
@@ -115,10 +116,10 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
-      - run: chmod +x run
-      - run: chmod +x cloudbuild
-      - run: ./run
+      - run: ls
+      - run: chmod +x runner.sh
+          no_output_timeout: 360m
+      - run: ./runner.sh
 
   build_11:
     docker:
@@ -128,9 +129,9 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
-      - run: ./run
+      - run: chmod +x runner.sh
+          no_output_timeout: 360m
+      - run: ./runner.sh
       
   build_12:
     docker:
@@ -140,9 +141,9 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
-      - run: ./run
+      - run: chmod +x runner.sh
+         no_output_timeout: 360m
+      - run: ./runner.sh
       
   build_13:
     docker:
