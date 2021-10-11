@@ -8,8 +8,8 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
+      - run: chmod +x run
+      - run: chmod +x cloudbuild
       - run: ./run
       
   build_02:
@@ -20,8 +20,8 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
+      - run: chmod +x run
+      - run: chmod +x cloudbuild
       - run: ./run
       
   build_03:
@@ -32,8 +32,8 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
+      - run: chmod +x run
+      - run: chmod +x cloudbuild
       - run: ./run
       
   build_04:
@@ -44,8 +44,8 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
+      - run: chmod +x run
+      - run: chmod +x cloudbuild
       - run: ./run
 
   build_05:
@@ -56,8 +56,8 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
+      - run: chmod +x run
+      - run: chmod +x cloudbuild
       - run: ./run
       
   build_06:
@@ -68,8 +68,8 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
+      - run: chmod +x run
+      - run: chmod +x cloudbuild
       - run: ./run
       
   build_07:
@@ -80,8 +80,8 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
+      - run: chmod +x run
+      - run: chmod +x cloudbuild
       - run: ./run
       
   build_08:
@@ -92,8 +92,8 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
+      - run: chmod +x run
+      - run: chmod +x cloudbuild
       - run: ./run
 
   build_09:
@@ -104,8 +104,8 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
+      - run: chmod +x run
+      - run: chmod +x cloudbuild
       - run: ./run
       
   build_10:
@@ -116,8 +116,8 @@ jobs:
     steps:
       - checkout
       - run: ls
-      - run: chmod u+x run
-      - run: chmod u+x *
+      - run: chmod +x run
+      - run: chmod +x cloudbuild
       - run: ./run
 
   build_11:
