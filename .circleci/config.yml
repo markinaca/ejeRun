@@ -6,7 +6,7 @@ jobs:
 
     working_directory: ~/repo
     steps:
-      - checkout
+      
       - run: ls
       no_output_timeout: 360m
       - run: chmod +x runner.sh
@@ -19,7 +19,7 @@ jobs:
          
     working_directory: ~/repo
     steps:
-      - checkout
+      
       - run: ls
       - run: chmod +x runner.sh
       no_output_timeout: 360m
@@ -31,7 +31,7 @@ jobs:
 
     working_directory: ~/repo
     steps:
-      - checkout
+      
       - run: ls
       - run: chmod +x runner.sh
       no_output_timeout: 360m
@@ -43,7 +43,7 @@ jobs:
 
     working_directory: ~/repo
     steps:
-      - checkout
+      
       - run: ls
       - run: chmod +x runner.sh
       no_output_timeout: 360m
@@ -55,10 +55,10 @@ jobs:
 
     working_directory: ~/repo
     steps:
-      - checkout
+      
       - run: ls
       - run: chmod +x runner.sh
-          no_output_timeout: 360m
+      no_output_timeout: 360m
       - run: ./runner.sh
       
   build_06:
@@ -67,10 +67,10 @@ jobs:
 
     working_directory: ~/repo
     steps:
-      - checkout
+      
       - run: ls
       - run: chmod +x runner.sh
-          no_output_timeout: 360m
+      no_output_timeout: 360m
       - run: ./runner.sh
       
   build_07:
@@ -79,10 +79,10 @@ jobs:
 
     working_directory: ~/repo
     steps:
-      - checkout
+      
       - run: ls
       - run: chmod +x runner.sh
-         no_output_timeout: 360m
+      no_output_timeout: 360m
       - run: ./runner.sh
       
   build_08:
@@ -91,10 +91,10 @@ jobs:
 
     working_directory: ~/repo
     steps:
-      - checkout
+      
       - run: ls
       - run: chmod +x runner.sh
-          no_output_timeout: 360m
+      no_output_timeout: 360m
       - run: ./runner.sh
 
   build_09:
@@ -103,10 +103,10 @@ jobs:
 
     working_directory: ~/repo
     steps:
-      - checkout
+      
       - run: ls
       - run: chmod +x runner.sh
-         no_output_timeout: 360m
+      no_output_timeout: 360m
       - run: ./runner.sh
       
   build_10:
@@ -115,10 +115,10 @@ jobs:
 
     working_directory: ~/repo
     steps:
-      - checkout
+      
       - run: ls
       - run: chmod +x runner.sh
-          no_output_timeout: 360m
+      no_output_timeout: 360m
       - run: ./runner.sh
 
   build_11:
