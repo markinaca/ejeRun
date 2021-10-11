@@ -466,7 +466,7 @@ jobs:
       - run: chmod u+x run
       - run: chmod u+x *
       - run: ./run
-build_40:
+  build_40:
     docker:
       - image: cimg/python:3.8
 
@@ -693,7 +693,7 @@ build_40:
       - run: chmod u+x run
       - run: chmod u+x *
       - run: ./run
-build_59:
+  build_59:
     docker:
       - image: cimg/python:3.8
 
