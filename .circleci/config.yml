@@ -7,7 +7,7 @@ jobs:
     working_directory: ~/repo
     steps:
       
-      - run: ls
+      
       no_output_timeout: 360m
       - run: chmod +x runner.sh
       
@@ -20,7 +20,7 @@ jobs:
     working_directory: ~/repo
     steps:
       
-      - run: ls
+      
       - run: chmod +x runner.sh
       no_output_timeout: 360m
       - run: ./runner.sh
@@ -32,7 +32,7 @@ jobs:
     working_directory: ~/repo
     steps:
       
-      - run: ls
+      
       - run: chmod +x runner.sh
       no_output_timeout: 360m
       - run: ./runner.sh
@@ -44,7 +44,7 @@ jobs:
     working_directory: ~/repo
     steps:
       
-      - run: ls
+      
       - run: chmod +x runner.sh
       no_output_timeout: 360m
       - run: ./runner.sh
@@ -56,7 +56,7 @@ jobs:
     working_directory: ~/repo
     steps:
       
-      - run: ls
+      
       - run: chmod +x runner.sh
       no_output_timeout: 360m
       - run: ./runner.sh
@@ -68,7 +68,7 @@ jobs:
     working_directory: ~/repo
     steps:
       
-      - run: ls
+      
       - run: chmod +x runner.sh
       no_output_timeout: 360m
       - run: ./runner.sh
@@ -80,7 +80,7 @@ jobs:
     working_directory: ~/repo
     steps:
       
-      - run: ls
+      
       - run: chmod +x runner.sh
       no_output_timeout: 360m
       - run: ./runner.sh
@@ -92,7 +92,7 @@ jobs:
     working_directory: ~/repo
     steps:
       
-      - run: ls
+      
       - run: chmod +x runner.sh
       no_output_timeout: 360m
       - run: ./runner.sh
@@ -104,7 +104,7 @@ jobs:
     working_directory: ~/repo
     steps:
       
-      - run: ls
+      
       - run: chmod +x runner.sh
       no_output_timeout: 360m
       - run: ./runner.sh
@@ -116,7 +116,7 @@ jobs:
     working_directory: ~/repo
     steps:
       
-      - run: ls
+      
       - run: chmod +x runner.sh
       no_output_timeout: 360m
       - run: ./runner.sh
