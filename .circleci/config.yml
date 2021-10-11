@@ -8,7 +8,7 @@ jobs:
     steps:
       - checkout
       - run: ls
-          no_output_timeout: 360m
+      no_output_timeout: 360m
       - run: chmod +x runner.sh
       
       - run: ./runner.sh
@@ -22,7 +22,7 @@ jobs:
       - checkout
       - run: ls
       - run: chmod +x runner.sh
-          no_output_timeout: 360m
+      no_output_timeout: 360m
       - run: ./runner.sh
       
   build_03:
@@ -34,7 +34,7 @@ jobs:
       - checkout
       - run: ls
       - run: chmod +x runner.sh
-           no_output_timeout: 360m
+      no_output_timeout: 360m
       - run: ./runner.sh
       
   build_04:
@@ -46,7 +46,7 @@ jobs:
       - checkout
       - run: ls
       - run: chmod +x runner.sh
-          no_output_timeout: 360m
+      no_output_timeout: 360m
       - run: ./runner.sh
 
   build_05:
