@@ -2,124 +2,136 @@ version: 2
 jobs:
   build_01:
     docker:
-      - image: node:11.10.1
+      - image: cimg/base:stable
 
     working_directory: ~/repo
     steps:
+      - checkout
+      - run: ls
+      - run:
+          no_output_timeout: 360m
+          
+          command: "chmod +x runner.sh && ./runner.sh"
       
       
-      no_output_timeout: 360m
-      - run: chmod +x runner.sh
       
-      - run: ./runner.sh
       
   build_02:
     docker:
-      - image: cimg/python:3.8
-         
+      - image: cimg/base:stable
+
     working_directory: ~/repo
     steps:
-      
-      
-      - run: chmod +x runner.sh
-      no_output_timeout: 360m
-      - run: ./runner.sh
+      - checkout
+      - run: ls
+      - run:
+          no_output_timeout: 360m
+          
+          command: "chmod +x runner.sh && ./runner.sh"
       
   build_03:
     docker:
-      - image: circleci/ruby:2.6.3-stretch-node
+      - image: cimg/base:stable
 
     working_directory: ~/repo
     steps:
-      
-      
-      - run: chmod +x runner.sh
-      no_output_timeout: 360m
-      - run: ./runner.sh
+      - checkout
+      - run: ls
+      - run:
+          no_output_timeout: 360m
+          
+          command: "chmod +x runner.sh && ./runner.sh"
       
   build_04:
     docker:
-      - image: node:11.10.1
+      - image: cimg/base:stable
 
     working_directory: ~/repo
     steps:
-      
-      
-      - run: chmod +x runner.sh
-      no_output_timeout: 360m
-      - run: ./runner.sh
+      - checkout
+      - run: ls
+      - run:
+          no_output_timeout: 360m
+          
+          command: "chmod +x runner.sh && ./runner.sh"
 
   build_05:
     docker:
-      - image: circleci/clojure:lein-2.9.5
+      - image: cimg/base:stable
 
     working_directory: ~/repo
     steps:
-      
-      
-      - run: chmod +x runner.sh
-      no_output_timeout: 360m
-      - run: ./runner.sh
+      - checkout
+      - run: ls
+      - run:
+          no_output_timeout: 360m
+          
+          command: "chmod +x runner.sh && ./runner.sh"
       
   build_06:
     docker:
-      - image: circleci/golang:1.15.8
+      - image: cimg/base:stable
 
     working_directory: ~/repo
     steps:
-      
-      
-      - run: chmod +x runner.sh
-      no_output_timeout: 360m
-      - run: ./runner.sh
+      - checkout
+      - run: ls
+      - run:
+          no_output_timeout: 360m
+          
+          command: "chmod +x runner.sh && ./runner.sh"
       
   build_07:
     docker:
-      - image: node:11.10.1
+      - image: cimg/base:stable
 
     working_directory: ~/repo
     steps:
-      
-      
-      - run: chmod +x runner.sh
-      no_output_timeout: 360m
-      - run: ./runner.sh
+      - checkout
+      - run: ls
+      - run:
+          no_output_timeout: 360m
+          
+          command: "chmod +x runner.sh && ./runner.sh"
       
   build_08:
     docker:
-      - image: node:11.10.1
+      - image: cimg/base:stable
 
     working_directory: ~/repo
     steps:
-      
-      
-      - run: chmod +x runner.sh
-      no_output_timeout: 360m
-      - run: ./runner.sh
+      - checkout
+      - run: ls
+      - run:
+          no_output_timeout: 360m
+          
+          command: "chmod +x runner.sh && ./runner.sh"
 
   build_09:
     docker:
-      - image: node:11.10.1
+      - image: cimg/base:stable
 
     working_directory: ~/repo
     steps:
-      
-      
-      - run: chmod +x runner.sh
-      no_output_timeout: 360m
-      - run: ./runner.sh
+      - checkout
+      - run: ls
+      - run:
+          no_output_timeout: 360m
+          
+          command: "chmod +x runner.sh && ./runner.sh"
       
   build_10:
     docker:
-      - image: circleci/elixir:1.4
+      - image: cimg/base:stable
 
     working_directory: ~/repo
     steps:
-      
-      
-      - run: chmod +x runner.sh
-      no_output_timeout: 360m
-      - run: ./runner.sh
+      - checkout
+      - run: ls
+      - run:
+          no_output_timeout: 360m
+          
+          command: "chmod +x runner.sh && ./runner.sh"
 
   build_11:
     docker:
